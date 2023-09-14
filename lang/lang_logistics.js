@@ -396,34 +396,34 @@ var languagePack_logistics =
                             "TIP9d": "<div style=\"margin-left:10px;\">d. 初期段階[戦役1~4]を除外することをお勧めします。</div>"
                         },
                         "AREASELECT": {
-                            "TITLE": "戦役選択"
+                            "TITLE": "战役选择"
                         },
                         "TIMESELECT": {
-                            "TITLE": "時間帯設定",
-                            "SELTIMEHOUR": "時間"
+                            "TITLE": "后勤时长选择",
+                            "SELTIMEHOUR": "时间"
                         },
                         "SUMRATE": {
-                            "TITLE": "合算レート",
-                            "BTN": "適用"
+                            "TITLE": "资源比例",
+                            "BTN": "应用"
                         },
                         "PRESOURCE": {
-                            "TITLE": "現在資源",
-                            "REFILL": "自動回復"
+                            "TITLE": "当前拥有资源",
+                            "REFILL": "自动恢复"
                         },
                         "SUCCESS": {
                             "TITLE": "大成功率",
-                            "SUMLEVEL": "梯隊レベル合計",
+                            "SUMLEVEL": "梯队比率合计",
                             "SUCSRATIO": "大成功率",
-                            "BTN": "適用",
-                            "EVENT": "後方支援大成功確率UP",
-                            "EVENTBTN": "確率UP"
+                            "BTN": "应用",
+                            "EVENT": "支援成功率UP",
+                            "EVENTBTN": "比率UP"
                         },
                         "INTERVAL": {
-                            "TITLE": "確認サイクル",
-                            "BTN": "適用"
+                            "TITLE": "循环确认",
+                            "BTN": "应用"
                         },
                         "RECOMMEND": {
-                            "TITLE": "自動推選",
+                            "TITLE": "自动选择",
                             "RATIO": {
                                 "BTN_RATIO": "私の重み付け",
                                 "CHOICE": {
