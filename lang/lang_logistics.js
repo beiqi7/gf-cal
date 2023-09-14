@@ -344,41 +344,41 @@ var languagePack_logistics =
         },
         "ja": {
             "HTML": {
-                "TITLE": "ドールフロ - 後方支援 効率計算 / 推選 シミュレータ",
+                "TITLE": "少女前线后勤计算器",
                 "TABLE": {
-                    "RSRC": "資源",
-                    "AREA": "戦役",
+                    "RSRC": "资源",
+                    "AREA": "战役",
                     "HUMA": "人力",
-                    "AMMO": "弾薬",
-                    "FOOD": "配給",
-                    "PART": "パーツ",
-                    "SUM": "合算",
-                    "SUMRATIO": "合算レート> ",
-                    "TIME": "時間",
-                    "BTNSUCS": "完了時<br>獲得",
-                    "BTNTIME": "一時間<br>獲得",
-                    "SELAREA": "選択<br>戦役",
-                    "LOAD": " ロード",
-                    "SAVE": " セーブ",
-                    "CAPT": " スクショ",
-                    "COPY": " URL 複写",
-                    "TIMETABLE": " タイムテーブル",
-                    "TICKET": "契約",
-                    "TICKET_DOLL": "人形製造契約",
-                    "TICKET_TOOL": "装備製造契約",
-                    "TICKET_FAST": "快速製造契約",
-                    "TICKET_REPR": "快速修復契約",
-                    "TICKET_TOKN": "購買トークン",
-                    "TICKET_PER_HOUR": "一時間獲得率",
-                    "TICKET_PER_RECV": "完了時獲得率",
-                    "PER_HOUR": "一時間",
-                    "PER_RECV": "完了時",
-                    "TICKET_RATIO": "獲得率",
+                    "AMMO": "弹药",
+                    "FOOD": "口粮",
+                    "PART": "零件",
+                    "SUM": "总计",
+                    "SUMRATIO": "总计比例> ",
+                    "TIME": "时间",
+                    "BTNSUCS": "完成时<br>获取",
+                    "BTNTIME": "每小时<br>获取",
+                    "SELAREA": "选择<br>战役",
+                    "LOAD": " 加载",
+                    "SAVE": " 报仇",
+                    "CAPT": " 截图",
+                    "COPY": " 分享链接",
+                    "TIMETABLE": " 上班日程",
+                    "TICKET": "票",
+                    "TICKET_DOLL": "白票（人形）",
+                    "TICKET_TOOL": "蓝票（装备）",
+                    "TICKET_FAST": "快速建造",
+                    "TICKET_REPR": "快速修复",
+                    "TICKET_TOKN": "采购币",
+                    "TICKET_PER_HOUR": "每小时可获得",
+                    "TICKET_PER_RECV": "完成时可获得",
+                    "PER_HOUR": "每小时",
+                    "PER_RECV": "完成时",
+                    "TICKET_RATIO": "获得比例",
                     "HELP": {
-                        "RESET": "デフォルト",
-                        "NOTICE": "アップデート",
-                        "OPEN": "ヘルプを開く",
-                        "CLOSE": "ヘルプを閉じる",
+                        "RESET": "重置",
+                        "NOTICE": "日志",
+                        "OPEN": "打开",
+                        "CLOSE": "关闭",
                         "TIPS": {
                             "TIP1": "1. 資源量 / 契約獲得量は表左側下段の <span id=\"help_time\"><a href=\"#toggleTime\">一時間 / 完了時獲得転換ボタン</a></span> で転換可能",
                             "TIP2": "2. 表上段の <a href=\"#\">資源</a> <font color=\"red\">クリック時</font>, 整列",
@@ -505,10 +505,10 @@ var languagePack_logistics =
                         '1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'
                     ],
                     weekdays: [
-                        '日','月','火','水','木','金','土'
+                        '日','1','2','3','4','5','6'
                     ],
                     shortWeekdays: [
-                        '日','月','火','水','木','金','土'
+                        '日','1','2','3','4','5','6'
                     ]
                 }
             }
