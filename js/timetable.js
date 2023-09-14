@@ -121,7 +121,7 @@ function copyURL(){
     t.select();
     document.execCommand('copy');
     document.body.removeChild(t);
-    alert('주소가 클립보드에 복사되었습니다\n' + t.value);
+    alert('地址已经复制到剪贴板\n' + t.value);
 }
 
 function preMakeTable(){
@@ -136,14 +136,14 @@ function preMakeTable(){
     }
 
     if(val.start == falseNumber){
-        alert('기상시간을 입력해주세요');
+        alert('请设置起床时间');
         return;
     }
 
     if(val.sleepStart == falseNumber){
         val.sw_sleep = false;
     }else if(val.sleepStart == val.start){
-        alert('취침시간과 기상시간은 달라야 합니다');
+        alert('就寝时间不能和起床时间相同');
         return;
     }else{
         val.sw_sleep = true;
@@ -156,7 +156,7 @@ function preMakeTable(){
         for(var i in val.sleepArea){
             if(val.sleepArea[i] != falseNumber){
                 if(arr[val.sleepArea[i]][2] > val.sleepPeriod){
-                    alert((parseInt(i)+1) + '군수의 소요시간이 수면시간보다 깁니다.');
+                    alert((parseInt(i)+1) + '号后勤所需时间超过睡眠时间.');
                     return;
                 }
             }
@@ -166,11 +166,11 @@ function preMakeTable(){
 }
 
 function clearTable(){
-    $('#colTime').html('<div class="btn btn-xs btn-default col-md-12 col-xs-12" style="width:100%;">시간</div>');
-    $('#colEnc0').html('<div class="btn btn-xs btn-default col-md-12 col-xs-12" style="width:100%;">1군수</div>');
-    $('#colEnc1').html('<div class="btn btn-xs btn-default col-md-12 col-xs-12" style="width:100%;">2군수</div>');
-    $('#colEnc2').html('<div class="btn btn-xs btn-default col-md-12 col-xs-12" style="width:100%;">3군수</div>');
-    $('#colEnc3').html('<div class="btn btn-xs btn-default col-md-12 col-xs-12" style="width:100%;">4군수</div>');
+    $('#colTime').html('<div class="btn btn-xs btn-default col-md-12 col-xs-12" style="width:100%;">时间</div>');
+    $('#colEnc0').html('<div class="btn btn-xs btn-default col-md-12 col-xs-12" style="width:100%;">1号后勤</div>');
+    $('#colEnc1').html('<div class="btn btn-xs btn-default col-md-12 col-xs-12" style="width:100%;">2号后勤</div>');
+    $('#colEnc2').html('<div class="btn btn-xs btn-default col-md-12 col-xs-12" style="width:100%;">3号后勤</div>');
+    $('#colEnc3').html('<div class="btn btn-xs btn-default col-md-12 col-xs-12" style="width:100%;">4号后勤</div>');
 }
 
 function clearResult(){
@@ -281,16 +281,16 @@ function popupAlert(ont){
     var elem = arr[$(ont).attr('value')];
     var inframe = "";
     inframe += elem[0] + '-' + elem[1];
-    inframe += '\n시간: ' + parseInt(elem[2] / 60) + ':' +  (parseInt(elem[2] % 60) == 0 ? '00' : '30');
-    inframe += '\n인력: ' + elem[3];
-    inframe += '\n탄약: ' + elem[4];
-    inframe += '\n식량: ' + elem[5];
-    inframe += '\n부품: ' + elem[6];
-    if(elem[7] != 0){inframe += '\n인형제조계약서: ' + elem[7] + '개'}
-    if(elem[8] != 0){inframe += '\n장비제조계약서: ' + elem[8] + '개'}
-    if(elem[9] != 0){inframe += '\n쾌속제조계약서: ' + elem[9] + '개'}
-    if(elem[10] != 0){inframe += '\n쾌속수복계약서: ' + elem[10] + '개'}
-    if(elem[11] != 0){inframe += '\n구매토큰: ' + elem[11] + '개'}
+    inframe += '\n时间: ' + parseInt(elem[2] / 60) + ':' +  (parseInt(elem[2] % 60) == 0 ? '00' : '30');
+    inframe += '\n人力: ' + elem[3];
+    inframe += '\n弹药: ' + elem[4];
+    inframe += '\n口粮: ' + elem[5];
+    inframe += '\n零件: ' + elem[6];
+    if(elem[7] != 0){inframe += '\n人形图纸: ' + elem[7] + '张'}
+    if(elem[8] != 0){inframe += '\n装备图纸: ' + elem[8] + '张'}
+    if(elem[9] != 0){inframe += '\n快速建造: ' + elem[9] + '张'}
+    if(elem[10] != 0){inframe += '\n快速修复: ' + elem[10] + '张'}
+    if(elem[11] != 0){inframe += '\n采购币: ' + elem[11] + '个'}
 
     alert(inframe);
 }
@@ -315,7 +315,7 @@ function makeFrame(elem){
 
 function drawChart(){
     var chart_time = new Array();
-    var name = ["인력","탄약","식량","부품"];
+    var name = ["人力","弹药","口粮","零件"];
 
     var date = new Date();
     var now = date.getTime() - (date.getTimezoneOffset() * 60 * 1000); // GMT+9
@@ -360,16 +360,16 @@ function drawChart(){
     Highcharts.setOptions({
         lang: {
             months: [
-                '1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월'
+                '1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'
             ],
             shortMonths: [
-                '1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월'
+                '1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'
             ],
             weekdays: [
-                '일요일','월요일','화요일','수요일','목요일','금요일','토요일'
+                '星期日','星期一','星期二','星期三','星期四','星期五','星期六'
             ],
             shortWeekdays: [
-                '일','월','화','수','목','금','토'
+                '日','一','二','三','四','五','六'
             ]
         }
     });
