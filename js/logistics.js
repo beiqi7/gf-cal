@@ -905,7 +905,7 @@ $('#btn-timetable').off().on('click', function (e) {
     code.push(0);           // 수면 False
     //var coded = Base64.encode(JSON.stringify(code));
     var coded = encodeHEX(code);
-    window.open('agenda.html?c=' + coded, '_blank');
+    window.open('agenda_zhcn.html?c=' + coded, '_blank');
     function sortFunctionPlane(a, b) {if (a === b) {return 0;}else {return (a < b) ? -1 : 1;}}
 });
 
