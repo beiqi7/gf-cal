@@ -21,6 +21,10 @@
  *  Plan to ask for feedback
  *  https://docs.google.com/spreadsheets/d/1ah2JO6ggWuVaBho9yxgDMC-ucEKA8C42SBkjIlnIcWk
  *
+ * 2023-09-16 Update:
+ *   Using new data from NGA : https://bbs.nga.cn/read.php?tid=36037666 ; Chinese Server excl.
+ *   No official, but should be more accurate than before.
+ *   Any suggestion can mail me : truxi@msn.com
  *****************************************************************************************************/
 
 var timeOriginal; // Original time array for area. Used for recover interval function. arr[i][2]
