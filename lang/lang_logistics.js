@@ -482,7 +482,7 @@ var languagePack_logistics =
                 },
                 "BOTTOM": {
                     "ADDR": "原项目链接: ",
-                    "SGST": "建议事项: ",
+                    "SGST": "备用链接: ",
                     "OPTI": "本页面已针对Chromium类浏览器优化。"
                 },
                 "INCODE": {
