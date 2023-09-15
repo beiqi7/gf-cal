@@ -354,7 +354,7 @@ var languagePack_logistics =
                     "PART": "零件",
                     "SUM": "总计",
                     "SUMRATIO": "总计比例> ",
-                    "TIME": "时间",
+                    "TIME": "耗时",
                     "BTNSUCS": "完成时<br>获取",
                     "BTNTIME": "每小时<br>获取",
                     "SELAREA": "选择<br>战役",
