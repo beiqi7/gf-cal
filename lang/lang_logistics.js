@@ -342,7 +342,7 @@ var languagePack_logistics =
                 }
             }
         },
-        "ja": {
+        "cn": {
             "HTML": {
                 "TITLE": "少女前线后勤计算器",
                 "TABLE": {
