@@ -359,10 +359,10 @@ var languagePack_logistics =
                     "BTNTIME": "每小时<br>获取",
                     "SELAREA": "选择<br>战役",
                     "LOAD": " 加载",
-                    "SAVE": " 报仇",
+                    "SAVE": " 保存",
                     "CAPT": " 截图",
                     "COPY": " 分享链接",
-                    "TIMETABLE": " 上班日程",
+                    "TIMETABLE": " 设置当日日程",
                     "TICKET": "票",
                     "TICKET_DOLL": "白票（人形）",
                     "TICKET_TOOL": "蓝票（装备）",
@@ -412,88 +412,88 @@ var languagePack_logistics =
                         },
                         "SUCCESS": {
                             "TITLE": "大成功率",
-                            "SUMLEVEL": "梯队比率合计",
+                            "SUMLEVEL": "梯队等级总和",
                             "SUCSRATIO": "大成功率",
                             "BTN": "应用",
                             "EVENT": "支援成功率UP",
-                            "EVENTBTN": "比率UP"
+                            "EVENTBTN": "大成功率UP"
                         },
                         "INTERVAL": {
-                            "TITLE": "循环确认",
+                            "TITLE": "循环确认时间",
                             "BTN": "应用"
                         },
                         "RECOMMEND": {
                             "TITLE": "自动选择",
                             "RATIO": {
-                                "BTN_RATIO": "私の重み付け",
+                                "BTN_RATIO": "资源类型比重",
                                 "CHOICE": {
                                     "DAY": {
-                                        "TITLE": "一日使用量で計算",
-                                        "TEXT": "一日に使用する資源量を基盤とする個人重み付け計算",
-                                        "TABLE1": "一日使用量で計算例",
-                                        "TABLE2": "人形製造汎用式4回",
-                                        "TABLE3": "装備製造汎用式4回",
-                                        "TABLE4": "戦役9回クリア",
-                                        "TABLE5": "合計 <small>(下に入力)</small>",
-                                        "TABLE6": "重み付け",
+                                        "TITLE": "每日日常任务目标值计算示例",
+                                        "TEXT": "以您设置的目标四项资源权重计算一日使用的目标值",
+                                        "TABLE1": "每日日常任务计算示例",
+                                        "TABLE2": "4次人形制造",
+                                        "TABLE3": "4次装备制造",
+                                        "TABLE4": "9次各类作战任务",
+                                        "TABLE5": "合计 <small>(下框中输入)</small>",
+                                        "TABLE6": "权重",
                                         "TABLEs1": "使用量"
                                     },
                                     "USES": {
-                                        "TITLE": "最終目標値で計算",
-                                        "TEXT": "目標とした資源量から逆算した個人重み付け計算",
-                                        "TABLE1": "最終目標値で計算例",
-                                        "TABLE2": "現在資源量 <small>(下に入力)</small>",
-                                        "TABLE3": "目標資源量 <small>(下に入力)</small>",
-                                        "TABLE4": "誤差",
-                                        "TABLE5": "重み付け",
-                                        "TABLEs1": "現在",
-                                        "TABLEs2": "目標"
+                                        "TITLE": "长期计划目标值计算示例",
+                                        "TEXT": "以您设置的目标四项资源权重计算长期计划的目标值",
+                                        "TABLE1": "最终目标值示例",
+                                        "TABLE2": "当前资源量 <small>(下框中输入)</small>",
+                                        "TABLE3": "目标资源量 <small>(下框中输入)</small>",
+                                        "TABLE4": "误差",
+                                        "TABLE5": "权重",
+                                        "TABLEs1": "当前值",
+                                        "TABLEs2": "目标值"
                                     }
                                 },
-                                "BTN_CALC": "計算",
-                                "CALC_TEXT": "'計算'クリック時、重み付け自動入力"
+                                "BTN_CALC": "计算",
+                                "CALC_TEXT": "'点击计算以获取数据"
                             },
-                            "SUCSRATIO": "獲得率",
-                            "TEXT_PERHOUR1": "時間当たり",
-                            "TEXT_PERHOUR2": "個以上",
-                            "BTN_RCMD": "戦役推選",
-                            "RESULT": "推選結果",
-                            "SIMM": "重み付け一致率",
+                            "SUCSRATIO": "获取契约比例",
+                            "TEXT_PERHOUR1": "多于",
+                            "TEXT_PERHOUR2": "/h",
+                            "BTN_RCMD": "战役选择",
+                            "RESULT": "计算结果",
+                            "SIMM": "权重相似比例",
                             "FEEDBACK": "漕艇"
                         }
                     }
                 },
                 "CHART": {
-                    "AREA": "戦役:",
-                    "TIME": "期間:",
-                    "BTN1": "1日",
-                    "BTN2": "1週",
-                    "BTN3": "2週",
-                    "BTN4": "4週",
+                    "AREA": "战役:",
+                    "TIME": "时间:",
+                    "BTN1": "一天",
+                    "BTN2": "1周",
+                    "BTN3": "2周",
+                    "BTN4": "4周",
                     "DAY": "日",
-                    "HOUR": "時",
+                    "HOUR": "时",
                     "MIN": "分"
                 },
                 "MODAL": {
                     "LOAD": {
-                        "TITLE": "セーブされた配置ロード",
-                        "AREA": "戦役",
-                        "HELP": "ヘルプ"
+                        "TITLE": "保存当前配置",
+                        "AREA": "战役",
+                        "HELP": "备注"
                     }
                 },
                 "BOTTOM": {
-                    "ADDR": "アドレス: ",
-                    "SGST": "建議事項: ",
-                    "OPTI": "このページは Chrome、FF、Edgeに最適化されています。"
+                    "ADDR": "原项目链接: ",
+                    "SGST": "建议事项: ",
+                    "OPTI": "本页面已针对Chromium类浏览器优化。"
                 },
                 "INCODE": {
-                    "ALERT1": "最終目標値は現在より大きいか同じでなければなりません。",
-                    "ALERT2": "検索結果が有りません。",
-                    "ALERT3": "一つ以上の支援を選択してください。",
-                    "ALERT4": "クリップボードにURLを複写しました。",
-                    "ALERT5": "すべての設定を初期状態に戻します。",
-                    "SAVE": "セーブする配置の名前を入力してください。",
-                    "DELETE": "デリート"
+                    "ALERT1": "最终获取的目标值应大于当前所拥有的资源值。",
+                    "ALERT2": "所选参数无结果。",
+                    "ALERT3": "请最少选择一个战役。",
+                    "ALERT4": "链接已复制到剪贴板。",
+                    "ALERT5": "重置所有选项并刷新页面。",
+                    "SAVE": "命名您的设置名称。",
+                    "DELETE": "删除"
                 }
             },
             "CHART": {
