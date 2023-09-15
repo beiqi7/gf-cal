@@ -363,7 +363,7 @@ var languagePack_logistics =
                     "CAPT": " 截图",
                     "COPY": " 分享链接",
                     "TIMETABLE": " 设置当日日程",
-                    "TICKET": "票",
+                    "TICKET": "道具",
                     "TICKET_DOLL": "白票（人形）",
                     "TICKET_TOOL": "蓝票（装备）",
                     "TICKET_FAST": "快速建造",
@@ -453,7 +453,7 @@ var languagePack_logistics =
                                 "BTN_CALC": "计算",
                                 "CALC_TEXT": "'点击计算以获取数据"
                             },
-                            "SUCSRATIO": "获取契约比例",
+                            "SUCSRATIO": "获取道具比例",
                             "TEXT_PERHOUR1": "多于",
                             "TEXT_PERHOUR2": "/h",
                             "BTN_RCMD": "战役选择",
