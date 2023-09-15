@@ -1,4 +1,4 @@
-var lastUpdate      = '2021-01-25 12:00'
+var lastUpdate      = '2023-09-16 01:00'
 var version         = parseInt(lastUpdate.replace(/[^0-9]/g,''));
 
 var updateDate      = 'Changelog (' + lastUpdate + ')';
