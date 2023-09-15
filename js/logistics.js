@@ -3,10 +3,7 @@ var version         = parseInt(lastUpdate.replace(/[^0-9]/g,''));
 
 var updateDate      = 'Changelog (' + lastUpdate + ')';
 
-var updateString    =   '13-4 Vector Simulator'
-                    +   '<br> > Change Maximum value of input stat'
-                    +   '<br> 8-1n Zas Simulator'
-                    +   '<br> > Update firerate table'
+var updateString    =   '更新数据，适配中文'
                     ;
 
 var updateImage     = false;
