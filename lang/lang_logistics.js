@@ -377,26 +377,25 @@ var languagePack_logistics =
                     "HELP": {
                         "RESET": "重置",
                         "NOTICE": "日志",
-                        "OPEN": "打开",
+                        "OPEN": "帮助",
                         "CLOSE": "关闭",
                         "TIPS": {
-                            "TIP1": "1. 資源量 / 契約獲得量は表左側下段の <span id=\"help_time\"><a href=\"#toggleTime\">一時間 / 完了時獲得転換ボタン</a></span> で転換可能",
-                            "TIP2": "2. 表上段の <a href=\"#\">資源</a> <font color=\"red\">クリック時</font>, 整列",
-                            "TIP3": "3. 表の <a href=\"#\">合計</a> は資源比 <font color=\"red\">合算レート</font>で計算. デフォルトち 1:1:1:2.2",
-                            "TIP4": "4. 表の契約獲得率(<font style=\"color:blue;\"><a href=\"https://github.com/tempkaridc/gf/blob/master/js/params.js\" target=\"_blank\">リンク</a></font>)",
-                            "TIP5": "5. 下段予想グラフは <a href=\"#\">現在資源</a> <font color=\"red\">量から合算</font>, 入力なしと０から計算",
-                            "TIP5a": "<div style=\"margin-left:10px;\">a. <a href=\"#\">自動回復</a> 活性化時3分当たり人弾配パ3:3:3:1回復</div>",
-                            "TIP6": "6. <a href=\"#\">大成功率</a> 適用時資源及び契約獲得率は大成功期待値で再計算",
-                            "TIP7": "7. <a href=\"#\">確認サイクル</a> 適用時全後方支援の時間を確認サイクルの倍数で再計算",
-                            "TIP8": "8. <div class=\"btn btn-danger\"></div><div class=\"btn btn-primary\"></div> 機能/選択ボタン, <div class=\"btn btn-default\"></div><div class=\"btn btn-success\"></div> オン・オフボタン",
-                            "TIP9": "9. <a href=\"#\">自動推選</a> は入力された <font color=\"red\">重み付け比率の資源獲得</font>ための配置推選",
-                            "TIP9a": "<div style=\"margin-left:10px;\">a. <a href=\"#\">戦役選択</a>, <a href=\"#\">時間帯設定</a>, <a href=\"#\">大成功率</a>, <a href=\"#\">契約獲得率</a>, <a href=\"#\">確認サイクル</a> 全て反映</div>",
-                            "TIP9b": "<div style=\"margin-left:10px;\">b. <span id=\"help_wght\"><a href=\"#\">私の重み付け</a></span> ボタンクリック時、個人重み付け計算可能</div>",
-                            "TIP9c": "<div style=\"margin-left:10px;\">c. 推選配置の百分率表しは入力された重み付けと結果値あいだの重み付け一致率を意味します。</div>",
-                            "TIP9d": "<div style=\"margin-left:10px;\">d. 初期段階[戦役1~4]を除外することをお勧めします。</div>"
+                            "TIP1": "1. 每小时 / 每次后勤 资源获取量可以通过左下角的蓝色按钮 <span id=\"help_time\"><a href=\"#toggleTime\">每小时 / 完成时可获得</a></span> 进行转换",
+                            "TIP2": "2. 点击资源类型图片可以从大到小排序",
+                            "TIP3": "3. 列表中 <a href=\"#\">总计</a> 是以 <font color=\"red\">资源计算比例</font>中提供的比例计算的. 默认值为 1:1:1:2.2",
+                            "TIP4": "4. 道具获取比例数据(<font style=\"color:blue;\"><a href=\"https://github.com/beiqi7/gf-cal/blob/master/js/params.js\" target=\"_blank\">链接</a></font>)",
+                            "TIP5": "5. 折线图中的数据起始值为 <a href=\"#\">当前拥有资源</a> <font color=\"red\">所填入的数据</font>, 默认为0",
+                            "TIP5a": "<div style=\"margin-left:10px;\">a. <a href=\"#\">自动恢复</a> 默认按照3分钟四项3:3:3:1为比例恢复</div>",
+                            "TIP6": "6. <a href=\"#\">大成功</a> 应用时将重新计算预期获取资源",
+                            "TIP7": "7. <a href=\"#\">应用循环时间</a> 时会自动匹配后勤时间与你选择的时间",
+                            "TIP8": "8. <div class=\"btn btn-danger\"></div><div class=\"btn btn-primary\"></div> 为应用/选择按钮, <div class=\"btn btn-default\"></div><div class=\"btn btn-success\"></div> 为切换按钮",
+                            "TIP9": "9. <a href=\"#\">自动选择</a> 可按照 <font color=\"red\">您选择的资源比例</font>自动配置后勤",
+                            "TIP9a": "<div style=\"margin-left:10px;\">a. <a href=\"#\">解锁战役</a>, <a href=\"#\">后勤时长选择</a>, <a href=\"#\">大成功率</a>, <a href=\"#\">道具获取率</a>, <a href=\"#\">循环确认时间</a> 都对最终结果造成影响</div>",
+                            "TIP9b": "<div style=\"margin-left:10px;\">b. <span id=\"help_wght\"><a href=\"#\">目标值计算</a></span> 可以设定你所需的资源目标值</div>",
+                            "TIP9c": "<div style=\"margin-left:10px;\">c. 推荐略去初级阶段（1-4章节）。</div>"
                         },
                         "AREASELECT": {
-                            "TITLE": "战役选择"
+                            "TITLE": "已解锁战役"
                         },
                         "TIMESELECT": {
                             "TITLE": "后勤时长选择",
@@ -425,7 +424,7 @@ var languagePack_logistics =
                         "RECOMMEND": {
                             "TITLE": "自动选择",
                             "RATIO": {
-                                "BTN_RATIO": "资源类型比重",
+                                "BTN_RATIO": "目标值计算",
                                 "CHOICE": {
                                     "DAY": {
                                         "TITLE": "每日日常任务目标值计算示例",
