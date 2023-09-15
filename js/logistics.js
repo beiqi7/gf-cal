@@ -1682,11 +1682,11 @@ function loadLanguage(){
         case 'en':
             langPack = langPacks.en;
             break;
-        case 'ja':
-            langPack = langPacks.ja;
+        case 'cn':
+            langPack = langPacks.cn;
             break;
         default:
-            langPack = langPacks.ko;
+            langPack = langPacks.cn;
             break;
     }
 
@@ -2041,9 +2041,9 @@ function init(){
             case 'ko':
             case 'ko-KR':
                 return 'ko';
-            case 'ja':
-            case 'ja-JP':
-                return 'ja';
+            case 'cn':
+            case 'zh-CN':
+                return 'cn';
             case 'en':
             case 'en-US':
             case 'en-GB':
